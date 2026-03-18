@@ -8,7 +8,7 @@ const Footer = () => {
         <p className="text-background/40 text-xs">
           Desarrollado por{" "}
           <a
-            href="https://lrsolutions.com.ar"
+            href="https://www.lrsolutions.com.ar/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 text-background/60 hover:text-background transition-colors underline underline-offset-2"
