@@ -89,13 +89,13 @@ const ConfianzaSection = () => {
                   <div className="grid grid-cols-2 gap-3">
                     {group.map((item) =>
                       item.isAlly ? (
-                        <div
-                          key={item.name}
-                          className="flex items-center gap-2 bg-primary rounded-full px-4 py-3 text-sm text-primary-foreground font-semibold shadow-md card-hover"
-                        >
-                          <Handshake size={14} className="flex-shrink-0 opacity-90" />
-                          {item.name}
-                        </div>
+                       <div
+  key={item.name}
+  className="flex items-center gap-2 bg-card border border-border rounded-full px-4 py-3 text-sm text-foreground shadow-sm card-hover"
+>
+  <Handshake size={14} className="text-primary flex-shrink-0" />
+  {item.name}
+</div>
                       ) : (
                         <div
                           key={item.name}
