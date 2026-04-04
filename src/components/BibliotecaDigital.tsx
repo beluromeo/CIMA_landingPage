@@ -14,6 +14,7 @@ import pdf8 from "@/assets/bibliografis/incentivos-bien-publico.pdf";
 import pdf9 from "@/assets/bibliografis/alianzas-publico-privadas.pdf";
 import pdf10 from "@/assets/bibliografis/manual-gestion-municipal.pdf";
 import pdf11 from "@/assets/bibliografis/manual-tiempos-crisis.pdf";
+import pdf12 from "@/assets/bibliografis/calidad-legislativa.pdf";
 
 interface Publication {
   id: number;
@@ -36,6 +37,7 @@ const publications: Publication[] = [
   { id: 9, title: "Diseño y Gestión de Alianzas Público-Privadas", author: "CIMA", category: "Finanzas y Presupuesto", description: "Guía para el desarrollo de asociaciones entre el sector público y privado orientadas al desarrollo local.", pdfUrl: pdf9 },
   { id: 10, title: "Manual de la Gestión Municipal", author: "CIMA", category: "Servicios Públicos", description: "Manual completo sobre administración municipal: organización, procesos, recursos humanos y prestación de servicios.", pdfUrl: pdf10 },
   { id: 11, title: "Manual en Tiempos de Crisis", author: "CIMA", category: "Servicios Públicos", description: "Protocolos y estrategias para la gestión municipal ante situaciones de emergencia y crisis institucional.", pdfUrl: pdf11 },
+  { id: 12, title: "Calidad Legislativa", author: "Pérez Bourbon", category: "El Concejo Deliberante", description: "Análisis sobre los estándares de calidad en la producción legislativa municipal, con criterios para la elaboración de normas claras y eficaces.", pdfUrl: pdf12 },
 ];
 
 const sortedPublications = [...publications].sort((a, b) =>
